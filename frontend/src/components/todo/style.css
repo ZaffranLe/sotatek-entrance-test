@@ -1,0 +1,49 @@
+.todo__container {
+    border: 1px solid black;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.todo__detail {
+    border: 1px solid black;
+    border-top: none;
+    padding: 2rem;
+}
+
+.todo__content {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.todo__action {
+    display: flex;
+    align-items: center;
+}
+
+.todo__checkbox {
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.todo__label {
+    font-size: 1.5rem;
+}
+
+.todo__bulk-action {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    background-color: #e0e0e0;
+    border-top: 1px solid black;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.todo__bulk-action__header {
+    margin-right: auto;
+}
